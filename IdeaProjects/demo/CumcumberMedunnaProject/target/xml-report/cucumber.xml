@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="11.073">
+    <testcase classname="Doktor randevulari" name="Doktor randevularini goruntuleyebilir" time="10.756">
+        <system-out><![CDATA[Given User goes to Medunna..................................................passed
+Then User goes to sign in symbol and clicks on it...........................passed
+And User clicks on the Sign in button.......................................passed
+Then Doctor fills in the correct credentials................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
