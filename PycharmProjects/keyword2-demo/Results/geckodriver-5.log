@@ -1,0 +1,15 @@
+1672172352595	geckodriver	INFO	Listening on 127.0.0.1:64278
+1672172355650	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64279" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilepAiQTh"
+1672172357239	Marionette	INFO	Marionette enabled
+1672172357247	Marionette	INFO	Listening on port 64291
+WebDriver BiDi listening on ws://127.0.0.1:64279
+Read port: 64291
+1672172357867	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilepAiQTh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64279/devtools/browser/8bac6d7a-12f0-425e-a4c3-d5e8896d4bee
+JavaScript warning: https://www.amazon.com/ line 1896 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.com."
+JavaScript warning: https://www.amazon.com/s?k=Ferrari+458&crid=1R3123T4ARQP9&sprefix=f%2Caps%2C262&ref=nb_sb_noss_2 line 5141 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/71pHmptWrvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672172478822	Marionette	INFO	Stopped listening on port 64291
+!!! error running onStopped callback: TypeError: callback is not a function

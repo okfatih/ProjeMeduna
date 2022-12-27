@@ -1,0 +1,13 @@
+1672172640204	geckodriver	INFO	Listening on 127.0.0.1:65277
+1672172643272	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65278" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile4WZNuY"
+1672172643805	Marionette	INFO	Marionette enabled
+1672172643813	Marionette	INFO	Listening on port 65289
+Read port: 65289
+WebDriver BiDi listening on ws://127.0.0.1:65278
+1672172644032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile4WZNuY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65278/devtools/browser/69370752-ccf9-406e-926b-6c74a5856c7b
+JavaScript warning: https://www.amazon.com/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.com."
+JavaScript warning: https://www.amazon.com/s?k=Ferrari+458&ref=nb_sb_noss line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672172704315	Marionette	INFO	Stopped listening on port 65289

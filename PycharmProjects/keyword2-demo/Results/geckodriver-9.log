@@ -1,0 +1,19 @@
+1672172565840	geckodriver	INFO	Listening on 127.0.0.1:64952
+1672172568879	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64953" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileAZW1tY"
+1672172569361	Marionette	INFO	Marionette enabled
+1672172569368	Marionette	INFO	Listening on port 64964
+Read port: 64964
+WebDriver BiDi listening on ws://127.0.0.1:64953
+1672172569606	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileAZW1tY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64953/devtools/browser/0fca240e-baf1-4002-98d3-76bc5d63afff
+JavaScript warning: https://www.amazon.com/ line 1896 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.com."
+JavaScript warning: https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=Ferrari+458 line 5125 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Ferrari-Speciale-Remote-Control-Convertible/dp/B01HQOT6MU/ref=sr_1_1_sspa?keywords=Ferrari+458&qid=1672172575&sr=8-1-spons&psc=1&smid=A1MBXK497Q7B3L&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzWk40UDFHUVFRTVQmZW5jcnlwdGVkSWQ9QTA5NDE0NTYzU1dDWlBRVjg0Nkg3JmVuY3J5cHRlZEFkSWQ9QTA4MTIyNjAzMjFMME1ISksxTDZKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ== line 10046 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.com."
+JavaScript warning: https://www.amazon.com/cart/add-to-cart/ref=dp_start-bbf_1_glance line 2701 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/71pHmptWrvL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1672172708085	Marionette	INFO	Stopped listening on port 64964
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function

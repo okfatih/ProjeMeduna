@@ -1,0 +1,15 @@
+1672172668387	geckodriver	INFO	Listening on 127.0.0.1:65418
+1672172671461	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile7NxtTk"
+1672172671959	Marionette	INFO	Marionette enabled
+1672172671966	Marionette	INFO	Listening on port 65430
+Read port: 65430
+WebDriver BiDi listening on ws://127.0.0.1:65419
+1672172672192	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile7NxtTk\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65419/devtools/browser/5acf5fca-3ad9-4999-bd54-203f254f802c
+JavaScript warning: https://www.amazon.com/ line 1888 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.com."
+JavaScript warning: https://www.amazon.com/s?k=Ferrari+458&crid=314756X48M46N&sprefix=%2Caps%2C204&ref=nb_sb_noss_2 line 5001 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Ferrari-Speciale-Remote-Control-Convertible/dp/B01HQOT6MU/ref=sr_1_1_sspa?crid=314756X48M46N&keywords=Ferrari+458&qid=1672172678&sprefix=%2Caps%2C204&sr=8-1-spons&psc=1&smid=A1MBXK497Q7B3L&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExVjhCTllPQVRHUEdSJmVuY3J5cHRlZElkPUEwNDY3NzI2R1RTWjYzRUhRWjlSJmVuY3J5cHRlZEFkSWQ9QTA4MTIyNjAzMjFMME1ISksxTDZKJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ== line 10163 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.amazon.com."
+JavaScript warning: https://www.amazon.com/cart/add-to-cart/ref=dp_start-bbf_1_glance line 2816 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
