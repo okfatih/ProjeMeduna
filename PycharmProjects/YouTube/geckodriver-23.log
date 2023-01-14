@@ -1,0 +1,16 @@
+1672267322554	geckodriver	INFO	Listening on 127.0.0.1:56561
+1672267325631	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56562" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile7o6LuC"
+1672267326123	Marionette	INFO	Marionette enabled
+1672267326131	Marionette	INFO	Listening on port 56572
+Read port: 56572
+WebDriver BiDi listening on ws://127.0.0.1:56562
+1672267326346	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofile7o6LuC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56562/devtools/browser/fa93cc06-7075-4622-9769-dfc370b20beb
+JavaScript warning: https://ads.adthrive.com/builds/core/2f51d06/es2018/js/adthrive.min.js?deployment=ad-1000:pr1000:hbs-q4:2f51d06:exp&experiments=rubiconFloors,recencyFrequency, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ads.adthrive.com/builds/core/2f51d06/gdpr/vendor/prebid/es2018/prebid.min.js, line 1: unreachable code after return statement
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1672267497907	Marionette	INFO	Stopped listening on port 56572

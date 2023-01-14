@@ -1,0 +1,13 @@
+1672267294486	geckodriver	INFO	Listening on 127.0.0.1:56483
+1672267297527	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56484" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilegOlMpy"
+1672267298061	Marionette	INFO	Marionette enabled
+1672267298068	Marionette	INFO	Listening on port 56495
+Read port: 56495
+WebDriver BiDi listening on ws://127.0.0.1:56484
+1672267298300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilegOlMpy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56484/devtools/browser/75cded7c-c00a-483f-9586-33da40424ac1
+JavaScript warning: https://ads.adthrive.com/builds/core/f5cb2d1/es2018/js/adthrive.min.js?deployment=stable&experiments=rubiconFloors,recencyFrequency, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://ads.adthrive.com/builds/core/f5cb2d1/gdpr/vendor/prebid/es2018/prebid.min.js, line 1: unreachable code after return statement
+1672267498471	Marionette	INFO	Stopped listening on port 56495
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

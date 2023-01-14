@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.1 on win32)" generated="20230113 22:41:23.601" rpa="false" schemaversion="3">
+<suite id="s1" name="radioButtons" source="C:\Users\Admin\PycharmProjects\YouTube\TestCases\radioButtons.robot">
+<test id="s1-t1" name="Testing Radio Buttons and Check Boxes" line="9">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url} ${browser}</arg>
+<arg>firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230113 22:41:24.154" level="INFO">Opening browser 'firefox' to base url 'https://www.keynotesupport.com/internet/web-contact-form-example-radio-buttons.shtml '.</msg>
+<msg timestamp="20230113 22:41:24.154" level="INFO">Firefox driver log is always forced to to: C:\Users\Admin\PycharmProjects\YouTube\geckodriver-28.log</msg>
+<status status="PASS" starttime="20230113 22:41:24.154" endtime="20230113 22:41:37.609"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20230113 22:41:37.612" endtime="20230113 22:41:38.200"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20230113 22:41:39.274" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20230113 22:41:38.272" endtime="20230113 22:41:39.274"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>name1</arg>
+<arg>Roland</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230113 22:41:39.274" level="INFO">Typing text 'Roland' into text field 'name1'.</msg>
+<status status="PASS" starttime="20230113 22:41:39.274" endtime="20230113 22:41:41.246"/>
+</kw>
+<kw name="Select Radio Button" library="SeleniumLibrary">
+<arg>software</arg>
+<arg>Excel</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<msg timestamp="20230113 22:41:41.250" level="INFO">Selecting 'Excel' from radio button 'software'.</msg>
+<msg timestamp="20230113 22:41:41.727" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-28.png"&gt;&lt;img src="selenium-screenshot-28.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20230113 22:41:41.727" level="FAIL">ElementClickInterceptedException: Message: Element &lt;input name="software" type="radio"&gt; is not clickable at point (372,741) because another element &lt;div id="AdThrive_Footer_1_desktop" class="adthrive-ad adthrive-footer adthrive-footer-1 adthrive-ad-cls adthrive-sticky"&gt; obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:281:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:160:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:198:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+</msg>
+<status status="FAIL" starttime="20230113 22:41:41.250" endtime="20230113 22:41:41.799"/>
+</kw>
+<status status="FAIL" starttime="20230113 22:41:24.154" endtime="20230113 22:41:41.803">ElementClickInterceptedException: Message: Element &lt;input name="software" type="radio"&gt; is not clickable at point (372,741) because another element &lt;div id="AdThrive_Footer_1_desktop" class="adthrive-ad adthrive-footer adthrive-footer-1 adthrive-ad-cls adthrive-sticky"&gt; obscures it
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:182:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:281:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:160:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:119:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:198:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:86:31
+</status>
+</test>
+<status status="FAIL" starttime="20230113 22:41:23.601" endtime="20230113 22:41:41.811"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="radioButtons">radioButtons</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,12 @@
+1673695371233	geckodriver	INFO	Listening on 127.0.0.1:53679
+1673695374311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53680" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileowzmeK"
+1673695374820	Marionette	INFO	Marionette enabled
+1673695374832	Marionette	INFO	Listening on port 53691
+Read port: 53691
+WebDriver BiDi listening on ws://127.0.0.1:53680
+1673695375072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileowzmeK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53680/devtools/browser/18592e71-3e66-479d-b634-b06a5b94a3fd
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 560: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1673695445013	Marionette	INFO	Stopped listening on port 53691
+!!! error running onStopped callback: TypeError: callback is not a function
